@@ -1,5 +1,7 @@
 package com.wj.arithmeticoperator;
 
+import java.util.Scanner;
+
 public class ArithmeticOperator {
     public static void main(String[] args) {
         // +
@@ -39,6 +41,20 @@ public class ArithmeticOperator {
         // 拿着序号 % 3 如果结果为1，就发给第一个玩家。
         // 如果结果为2，那么就发给第二个玩家
         // 如果结果为0，那么就发给第三个玩家
+
+//        小练习
+        System.out.println("请输入一个三位整数");
+        Scanner sc = new Scanner(System.in);
+        int num = sc.nextInt();
+        int num1 = num % 10;
+        System.out.println("整数的个位数是：" + num1);
+        int num2 = (num / 10) % 10;
+        System.out.println("整数的十位数是：" + num2);
+        int num3 = num / 100;
+        System.out.println("整数的百位数是：" + num3);
+        
+
+
 
     }
 }
