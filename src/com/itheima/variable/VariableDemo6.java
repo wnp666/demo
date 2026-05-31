@@ -2,7 +2,7 @@ package com.itheima.variable;
 
 import java.util.Scanner;
 
-public class variableDemo6 {
+public class VariableDemo6 {
     static void main(String[] args) {
         /*
             键盘录入:
