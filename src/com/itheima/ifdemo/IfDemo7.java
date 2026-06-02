@@ -1,7 +1,8 @@
 package com.itheima.ifdemo;
+
 import java.util.Scanner;
 
-public class IfDemo7{
+public class IfDemo7 {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
         System.out.print("请输入充值金额：");
@@ -35,3 +36,4 @@ public class IfDemo7{
         System.out.println("卡内余额为：" + balance);
     }
 }
+

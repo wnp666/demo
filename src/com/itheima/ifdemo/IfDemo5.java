@@ -2,7 +2,7 @@ package com.itheima.ifdemo;
 
 import java.util.Scanner;
 
-public class IfDome5 {
+public class IfDemo5 {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
         //输入一个整数
